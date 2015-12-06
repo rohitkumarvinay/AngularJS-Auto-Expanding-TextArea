@@ -1,8 +1,47 @@
+<<<<<<< HEAD
 body {
   background:#43434B;
   padding-top:100px;
 }
 textarea {height:auto; max-width:600px; color:#999; font-weight:400; font-size:30px; font-family:'Ubuntu', Helvetica, Arial, sans-serif; width:100%; background:#fff; border-radius:3px; line-height:2em; border:none; box-shadow:0px 0px 5px 1px rgba(0,0,0,0.1); padding:30px; -webkit-transition: height 2s ease; -moz-transition: height 2s ease; -ms-transition: height 2s ease; -o-transition: height 2s ease; transition: height 2s ease; }
+=======
+/*Base*/
+body{font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif; } 
+.e21-full-center{min-height: 100vh; background: #4aa3df; background:url(../img/bg.jpg);background-size:cover;}
+h4{margin:5px!important;text-shadow: 0 1px 0 rgb(204,204,204) , 0 0 0 rgb(201,201,201) , 0 0.5px 0 rgb(187,187,187) , 0 1px 0 rgb(185,185,185) , 0 1.5px 0 rgb(170,170,170) , 0 2px 1px rgba(0,0,0,0.0980392) , 0 0 2.5px rgba(0,0,0,0.0980392) , 0 1px 3px rgba(0,0,0,0.298039) , 0 1px 5px rgba(0,0,0,0.2) , 0 3px 9px rgba(0,0,0,0.247059) , 0 5px 10px rgba(0,0,0,0.2) , 0 5px 20px rgba(0,0,0,0.14902) ; color:#fff; font-size: 30px; } 
+h5{margin:5px!important;text-shadow: 0 1px 0 rgb(204,204,204) , 0 0 0 rgb(201,201,201) , 0 0.5px 0 rgb(187,187,187) , 0 1px 0 rgb(185,185,185) , 0 1.5px 0 rgb(170,170,170) , 0 2px 1px rgba(0,0,0,0.0980392) , 0 0 2.5px rgba(0,0,0,0.0980392) ; color:#fff; font-size: 20px; }
+
+p{font-size: 30px;margin: 0;color: #fff}
+textarea {
+  height:auto;
+  color:#999;
+  font-weight:400;
+  font-size:20px;
+  min-height: 180px;
+  min-width: 40%!important;
+  font-family:'Ubuntu', Helvetica, Arial, sans-serif;
+  width:100%;
+  border-radius:3px;
+  line-height:2em;
+  border:none;
+  border-radius: 7px!important; 
+  box-shadow: \inset 0px -1px 16px 0px #0E0B1B;
+  background: rgba(19, 13, 39,0.6)!important;
+  padding: 10px;padding:10px;
+  -webkit-transition: height 2s ease;
+  -moz-transition: height 2s ease;
+  -ms-transition: height 2s ease;
+  -o-transition: height 2s ease;
+  transition: height 2s ease;
+}
+textarea:focus, input:focus{
+  outline: 0;
+}
+.min-width-40
+{
+  min-width: 40%;
+}
+>>>>>>> master
 * {
   -webkit-font-smoothing:antialiased !important;
 }
