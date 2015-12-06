@@ -10,25 +10,25 @@ textarea {
   color:#999;
   font-weight:400;
   font-size:20px;
-      min-height: 180px;
-          min-width: 40%!important;
+  min-height: 180px;
+  min-width: 40%!important;
   font-family:'Ubuntu', Helvetica, Arial, sans-serif;
   width:100%;
   border-radius:3px;
   line-height:2em;
   border:none;
   border-radius: 7px!important; 
-      box-shadow: \inset 0px -1px 16px 0px #0E0B1B;
-    background: rgba(19, 13, 39,0.6)!important;
-    padding: 10px;padding:10px;
+  box-shadow: \inset 0px -1px 16px 0px #0E0B1B;
+  background: rgba(19, 13, 39,0.6)!important;
+  padding: 10px;padding:10px;
   -webkit-transition: height 2s ease;
--moz-transition: height 2s ease;
--ms-transition: height 2s ease;
--o-transition: height 2s ease;
-transition: height 2s ease;
+  -moz-transition: height 2s ease;
+  -ms-transition: height 2s ease;
+  -o-transition: height 2s ease;
+  transition: height 2s ease;
 }
 textarea:focus, input:focus{
-    outline: 0;
+  outline: 0;
 }
 .min-width-40
 {
