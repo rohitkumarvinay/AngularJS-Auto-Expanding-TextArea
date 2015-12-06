@@ -1,6 +1,6 @@
 
 
-var app = angular.module('myApp', []);
+var app = angular.module('myApp', ['ngMaterial','ngAnimate','ngAria']);
 
 app.controller('AppCtrl', ['$scope', '$http', '$timeout', function($scope, $http, $timeout) {
   
